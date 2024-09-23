@@ -16,7 +16,7 @@ export default defineConfig({
     },
   },
   plugins: [vue({
-    // NOTE: Component の拡張子を .ce.vue にしていない Component を Web Components として配信したい場合のみ有効にしてください。
-    // customElement: true
+    // NOTE: Web Components として配信する Vue Component の拡張子が .ce.vue ではないものが含まれている場合に有効化する。
+    customElement: true
   })],
 })
