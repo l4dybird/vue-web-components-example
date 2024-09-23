@@ -1,7 +1,13 @@
 {
-  "name": "vue-web-components-example",
+  "name": "@l4dybird/vue-web-components-example",
+  "main": "dist/vue-web-components-example.umd.js",
+  "module": "dist/vue-web-components-example.es.js",
+  "unpkg": "dist/vue-web-components-example.umd.js",
+  "files": [
+    "dist"
+  ],
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "packageManager": "pnpm@9.11.0",
   "scripts": {
